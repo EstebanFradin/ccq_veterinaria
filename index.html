@@ -9,38 +9,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Centro Clínico Veterinario</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
-
-<body>
-<!--------------------------------------------------------------------Inicio de Header------------------------------------------------------------------------------->
 <div class="grid">
-    <header id="arriba">
 
-        <div class="logo">
-            <img src="./images/veterinario.png" alt="logo" class="logo">
-        </div>
-        <nav>
-            <ul class="menusuperior">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="./views/Productos.html">Productos</a></li>
-                <li><a href="./views/Servicios.html">Servicios</a></li>
-                <li><a href="./views/SobreNosotros.html">Sobre Nosotros</a></li>
-                <li><a href="./views/Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <div class="iconheader">
-            <a href="./views/usuario.html"> <img src="./images/user.png" alt="Icono usuario"></a>
-            <a href="./views/carrito.html"><img src="./images/carro.png" alt="Icono carrito"></a>
-        </div>
-    </header>
+    <body data-aos="fade-up">
+
+        <!--------------------------------------------------------------------Inicio de Header------------------------------------------------------------------------------->
+
+        <header id="arriba">
+
+            <div class="logo">
+                <img src="./images/veterinario.png" alt="logo" class="logo">
+            </div>
+            <nav>
+                <ul class="menusuperior">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="./views/Productos.html">Productos</a></li>
+                    <li><a href="./views/Servicios.html">Servicios</a></li>
+                    <li><a href="./views/SobreNosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="./views/Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="iconheader">
+                <a href="./views/usuario.html"> <img src="./images/user.png" alt="Icono usuario"></a>
+                <a href="./views/carrito.html"><img src="./images/carro.png" alt="Icono carrito"></a>
+            </div>
+        </header>
 
 
-    <!---------------------------------------------------------------------Inicio de información del body---------------------------------------------------------------->
-
-    
+        <!---------------------------------------------------------------------Inicio de información del body---------------------------------------------------------------->
         <section id="primero">
             <div>
                 <img src="./images/local.jpeg" alt="vista exterior del local" class="fotobig">
@@ -131,8 +133,11 @@
                 <p class="dato">Lun. a Vie. de 09:00 a 13:00 y de 16:00 a 20:30</p>
             </div>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+    </body>
 </div>
-
-</body>
 
 </html>
