@@ -2,122 +2,147 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/salud.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Usuario</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/salud.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Usuario</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!--CSS Propio-->
+  <link rel="stylesheet" href="../style.css" />
 </head>
 
 <body data-aos="fade-up">
-    <!--Inicio de Header-->
+  <!--Inicio de Header-->
 
-    <header id="arriba">
-        <div class="logo">
-            <img src="../images/veterinario.png" alt="logo">
-        </div>
-        <nav>
-            <ul class="menusuperior">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../views/Productos.html">Productos</a></li>
-                <li><a href="../views/Servicios.html">Servicios</a></li>
-                <li><a href="../views/SobreNosotros.html">Sobre Nosotros</a></li>
-                <li><a href="../views/Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <div class="iconheader">
-            <a href="../views/usuario.html"> <img src="../images/user.png" alt="Icono usuario"></a>
-            <a href="../views/carrito.html"><img src="../images/carro.png" alt="Icono carrito"></a>
-        </div>
-    </header>
-
-
-    <h2 class="tittleregis">REGISTRARSE</h2>
-
-    <div class="ordentotal">
-        <form class="fondo5">
-            <div class="separar">
-                <label for="name">Nombre:</label>
-                <input type="text" name="name" placeholder="Ingresar nombre" required>
-            </div>
-            <div class="separar">
-                <label for="surname">Apellido:</label>
-                <input type="text" name="surname" placeholder="Ingresar apellido" required>
-            </div>
-            <div class="separar">
-                <label for="telefono">Teléfono:</label>
-                <input type="text" name="telefono" placeholder="Ingresar teléfono" required>
-            </div>
-            <div class="separar">
-                <label for="direccion">Dirección:</label>
-                <input type="text" name="direccion" placeholder="Ingresar dirección" required>
-            </div>
-            <div class="separar">
-                <label for="postal">Código Postal:</label>
-                <input type="text" name="postal" placeholder="Ingresar código postal" required>
-            </div>
-            <div class="separar">
-                <label for="pais">País:</label>
-                <input type="text" name="pais" placeholder="Ingresar país" required>
-            </div>
-            <div class="separar">
-                <label for="ciudad">Ciudad/Región:</label>
-                <input type="text" name="ciudad" placeholder="Ingresar ciudad o región" required>
-            </div>
-            <div class="separar">
-                <input type="submit" value="Guardar">
-                <input type="reset" value="Borrar">
-            </div>
-        </form>
-    </div>
-    <h2 class="tittleregis">INGRESAR</h2>
-    <form class="fondo5 centrar">
-        <labelo for="start">Nombre</labelo>
-        <input type="text" name="start" placeholder="Nombre" required>
-        <label for="contra">Contraseña</label>
-        <input type="password" name="contra" placeholder="Contraseña" required>
-    </form>
-    <!--Inicio del Footer-->
-
-    <footer id="abajo">
-        <ul class="menuinferior">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../views/Productos.html">Productos</a></li>
-            <li><a href="../views/Servicios.html">Servicios</a></li>
-            <li><a href="../views/SobreNosotros.html">Sobre Nosotros</a></li>
-            <li><a href="../views/Contacto.html">Contacto</a></li>
+  <header id="arriba">
+    <nav class="navbar navbar-expand-lg nav__color">
+      <div class="container">
+        <a class="navbar-brand logo " href="../index.html">
+          <img src="../images/veterinario.png" alt="" width="70" height="70" alt="logo">
+        </a>
+      </div>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse menusuperior" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./SobreNosotros.html">SobreNosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Contacto.html">Contacto</a>
+          </li>
         </ul>
-        <div class="redes">
-            <h2 class="spam">Redes Sociales</h2>
-            <a href="https://www.facebook.com/profile.php?id=100075297172040" target="_blank"><img
-                    src="../images/facebook.png" alt="Icono facebook" class="fc"></a>
-            <a href="https://www.instagram.com/ccqvetmendoza/" target="_blank"><img src="../images/instagram.png"
-                    alt="Icono instagram" class="ig"></a>
-            <a href="https://twitter.com/Estyyy_15" target="_blank"> <img src="../images/tw.png"
-                    alt="Icono twitter" class="tw"></a>
-        </div>
-        <div class="contacto">
-            <h3 class="tittlecontacto">CONTÁCTENOS</h3>
-            <p class="dato">281-800-3546</p>
-            <div class="dato">
-                <a href="mailto: ccqvetmendoza@gmail.com">ccqvetmendoza@gmail.com</a>
-            </div>
-            <p class="dato">Lun. a Vie. de 09:00 a 13:00 y de 16:00 a 20:30</p>
-        </div>
-    </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
+      </div>
+      <div class="iconheader collapse navbar-collapse" id="navbarSupportedContent">
+        <a class="navbar-brand" href="./usuario.html">
+          <img src="../images/user.png" alt="usuario" width="35" height="35">
+        </a>
+        <a class="navbar-brand" href="./carrito.html">
+          <img src="../images/carro.png" alt="carrito" width="35" height="35">
+        </a>
+
+      </div>
+    </nav>
+  </header>
+
+<div class="fondoregis">
+  <h2 class="tittleregis">REGISTRARSE</h2>
+  <form class="row g-3 color_form">
+    <div class="col-md-3 espacio ">
+      <label for="validationDefault01" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="validationDefault01" required>
+    </div>
+    <div class="col-md-3 ">
+      <label for="validationDefault02" class="form-label">Apellido</label>
+      <input type="text" class="form-control" id="validationDefault02" value="" required>
+    </div>
+    <div class="col-md-4 ">
+      <label for="validationDefaultUsername" class="form-label">Mail</label>
+      <div class="input-group">
+        <input type="email" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2"
+          required>
+      </div>
+    </div>
+    <div class="col-md-4 espacio1">
+      <label for="validationDefault03" class="form-label">Ciudad</label>
+      <input type="text" class="form-control" id="validationDefault03" required>
+    </div>
+
+    <div class="col-md-3 ">
+      <label for="validationDefault05" class="form-label">Contraseña</label>
+      <input type="text" class="form-control" id="validationDefault05" required>
+    </div>
+
+    <div class="col-12">
+      <button type="sumbit" class="btn btn-outline-dark ">Enviar</button>
+    </div>
+  </form>
+</div>
+
+  <div class="fondoing">
+    <h2 class="tittleing">INGRESAR</h2>
+    <form class="fondo5 centrar">
+      <labelo for="start">Nombre</labelo>
+      <input type="text" name="start" placeholder="Nombre" required>
+      <label for="contra">Contraseña</label>
+      <input type="password" name="contra" placeholder="Contraseña" required>
+    </form>
+  </div>
+  <!--Inicio del Footer-->
+
+  <footer id="abajo">
+    <ul class="menuinferior">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../views/Productos.html">Productos</a></li>
+      <li><a href="../views/Servicios.html">Servicios</a></li>
+      <li><a href="../views/SobreNosotros.html">Sobre Nosotros</a></li>
+      <li><a href="../views/Contacto.html">Contacto</a></li>
+    </ul>
+    <div class="redes">
+      <h2 class="spam">Redes Sociales</h2>
+      <a href="https://www.facebook.com/profile.php?id=100075297172040" target="_blank"><img
+          src="../images/facebook.png" alt="Icono facebook" class="fc"></a>
+      <a href="https://www.instagram.com/ccqvetmendoza/" target="_blank"><img src="../images/instagram.png"
+          alt="Icono instagram" class="ig"></a>
+      <a href="https://twitter.com/Estyyy_15" target="_blank"> <img src="../images/tw.png" alt="Icono twitter"
+          class="tw"></a>
+    </div>
+    <div class="contacto">
+      <h3 class="tittlecontacto">CONTÁCTENOS</h3>
+      <p class="dato">281-800-3546</p>
+      <div class="dato">
+        <a href="mailto: ccqvetmendoza@gmail.com">ccqvetmendoza@gmail.com</a>
+      </div>
+      <p class="dato">Lun. a Vie. de 09:00 a 13:00 y de 16:00 a 20:30</p>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../images/salud.png">
-    <link rel="stylesheet" href="../style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
@@ -16,67 +16,122 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--CSS Propio-->
+    <link rel="stylesheet" href="../style.css" />
 </head>
 
 <body data-aos="fade-up">
-
     <header id="arriba">
-        <div class="logo">
-            <img src="../images/veterinario.png" alt="logo">
-        </div>
-        <nav>
-            <ul class="menusuperior">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./Productos.html">Productos</a></li>
-                <li><a href="./Servicios.html">Servicios</a></li>
-                <li><a href="SobreNosotros.html">Sobre Nosotros</a></li>
-                <li><a href="./Contacto.html">Contacto</a></li>
+    <nav class="navbar navbar-expand-lg nav__color">
+        <div class="container">
+            <a class="navbar-brand logo " href="../index.html">
+              <img src="../images/veterinario.png" alt="" width="70" height="70"  alt="logo">
+            </a>
+          </div>
+          <button class="navbar-toggler text-left" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse menusuperior" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./SobreNosotros.html">SobreNosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contacto.html">Contacto</a>
+              </li>
             </ul>
-        </nav>
-        <div class="iconheader">
-            <a href="../views/usuario.html"> <img src="../images/user.png" alt="Icono usuario"></a>
-            <a href="../views/carrito.html"><img src="../images/carro.png" alt="Icono carrito"></a>
+            </div>
+            <div class="iconheader collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand" href="./usuario.html">
+                    <img src="../images/user.png" alt="usuario" width="35" height="35">
+                  </a>
+                  <a class="navbar-brand" href="./carrito.html">
+                    <img src="../images/carro.png" alt="carrito" width="35" height="35">
+                  </a>
+          
         </div>
+      </nav>
     </header>
+
+
 
     <!--Inicio de Información del body-->
     <div id="papa">
         <section class="primero">
-            <h3 class="tituloo">¿Quiénes somos?</h3>
-
-            <p class="texto" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima minus quod voluptate
-                voluptas dicta ex
-                eius,
-                ipsam eos nam vitae molestiae asperiores cumque similique beatae! Totam assumenda voluptatibus
-                voluptates
-                consequatur?</p>
-            <p  class="texto " >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum a voluptatibus
-                doloribus eos impedit
-                molestias blanditiis, cumque, tenetur quam ipsum voluptatem! Cum laudantium voluptate sit ratione
-                consectetur saepe iure eaque.</p>
             <div data-aos="flip-right">
-                <img src="../images/equipo.jpg" alt="Equipo de trabajo" class="izq">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <h3 class="tituloo">¿Quiénes somos?</h3>
+                        <p class="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima minus quod
+                            voluptate
+                            voluptas dicta ex
+                            eius,
+                            ipsam eos nam vitae molestiae asperiores cumque similique beatae! Totam assumenda
+                            voluptatibus
+                            voluptates
+                            consequatur?</p>
+                        <p class="texto ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum a
+                            voluptatibus
+                            doloribus eos impedit
+                            molestias blanditiis, cumque, tenetur quam ipsum voluptatem! Cum laudantium voluptate sit
+                            ratione
+                            consectetur saepe iure eaque.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <img src="../images/equipo.jpg" alt="Equipo de trabajo" class="izq img-fluid">
+                    </div>
+
+                </div>
             </div>
         </section>
     </div>
     <div id="papa2">
         <section class="segundo">
-            <h3 class="titulooo">Nuestra historia</h3>
-            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus laboriosam saepe fugit
-                impeditnihil, ipsam quas beatae reprehenderit mollitia, quam ad, excepturi quos voluptate delectus
-                animivel deleniti dicta illum?</p>
             <div data-aos="flip-left">
-                <img src="../images/local.jpeg" alt="local por fuera" class="localcito">
+                <div class="row">
+                    <div class=" col-lg-6 col order-last col-md-12 ">
+                        <h3 class="titulooo">Nuestra historia</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus laboriosam saepe fugitimpeditnihil, ipsam quas beatae reprehenderit mollitia, quam ad, excepturi quos voluptatedelectus animivel deleniti dicta illum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus laboriosam saep fugit impeditnihil, ipsam quas beatae reprehenderit mollitia, quam ad, excepturi quos voluptate delectus animivel deleniti dicta illum?</p>
+                            
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus laboriosam saepefugit impeditnihil, ipsam quas beatae reprehenderit mollitia, quam ad, excepturi quos voluptatedelectus animivel deleniti dicta illum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus laboriosam saepefugitimpeditnihil, ipsam quas beatae reprehenderit mollitia, quam ad, excepturi quos voluptatedelectus animivel deleniti dicta illum?</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus laboriosam saepe
+                                    fugit
+                                    impeditnihil, ipsam quas beatae reprehenderit mollitia, quam ad, excepturi quos voluptate
+                                    delectus
+                                    animivel deleniti dicta illum?</p>
+                    </div>
+                    <div class=" col-lg-6 col order-first col-md-12 ">
+                        <img src="../images/local.jpeg" alt="local por fuera" class="localcito img-fluid">
+                    </div>
+                    
+                </div>
             </div>
-        </section>
+
+    </div>
+    </section>
     </div>
     <div id="papa3">
         <section class="tercero">
-            <h3 class="tituloo">Nuestro equipo</h3>
             <div data-aos="flip-right">
-                <img src="../images/profesional.jpg" alt="Licenciado Fradin" class="izq1">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <h3 class="tituloo">Nuestro equipo</h3>
+                        <p>Doctor Leonardo Fradin. Recibido en la Universidad Nacional de Rio Cuarto </p>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <img src="../images/profesional.jpg" alt="Licenciado Fradin" class="izq1">
+                    </div>
+                </div>
             </div>
-            <p>Doctor Leonardo Fradin. Recibido en la Universidad Nacional de Rio Cuarto </p>
         </section>
     </div>
 
@@ -97,8 +152,8 @@
                     src="../images/facebook.png" alt="Icono facebook" class="fc"></a>
             <a href="https://www.instagram.com/ccqvetmendoza/" target="_blank"><img src="../images/instagram.png"
                     alt="Icono instagram" class="ig"></a>
-            <a href="https://twitter.com/Estyyy_15" target="_blank"> <img src="../images/tw.png"
-                    alt="Icono twitter" class="tw"></a>
+            <a href="https://twitter.com/Estyyy_15" target="_blank"> <img src="../images/tw.png" alt="Icono twitter"
+                    class="tw"></a>
         </div>
         <div class="contacto">
             <h3 class="tittlecontacto">CONTÁCTENOS</h3>
@@ -113,6 +168,10 @@
     <script>
         AOS.init();
     </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

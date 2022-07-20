@@ -31,7 +31,6 @@
         text-align: center;
         margin: 25px 25px 25px 20px;
     }
-    
 
     .menusuperior li {
         display: inline-block;
@@ -49,7 +48,7 @@
     .menusuperior a:hover {
         text-decoration: none;
         color: black;
-        padding: 2rem;
+        padding: 0rem;
         font-size: 24px;
         font-weight: 700;
         color: whitesmoke;
@@ -72,8 +71,7 @@
         display: inline-block;
         justify-content: space-evenly;
     }
-
-
+    
     body {
 
         background-color: white;
@@ -90,7 +88,14 @@
         height: 900px;
         text-align: center;
     }
-
+    .informacion {
+        text-align: center;
+        height: 900px;
+    }
+    .informacion2 {
+        text-align: center;
+        height: 900px;
+    }
     #segundo {
         background-color: #C9EAFF;
         text-align: center;
@@ -612,7 +617,7 @@
         grid-template-areas:
             "pin pin pin"
             "aside section section"
-            "aside divv divv"
+            "aside divv divv "
             "footer footer footer";
 
     }
@@ -776,6 +781,7 @@
         width: 700px;
         height: 400px;
         margin-left: 20px;
+
     }
 
     .articulo3 {
@@ -1368,43 +1374,41 @@ header {
 
 .menusuperior {
     list-style-type: none;
-    text-align: center;
-    margin: 25px 25px 25px 20px;
 }
 
 .menusuperior li {
     display: inline-block;
-    margin-right: 2rem;
+    margin-right: 3rem;
+    margin-left: 6rem; 
+    margin-top: 0%;
 }
 
 
 .menusuperior a {
     text-decoration: none;
     color: black;
-    padding: 2rem;
-    font-size: 1.4rem;
+    padding: 0rem;
+    font-size: 1.5rem;
     font-weight: 600;
 
 }
-
+.nav 
 .iconheader {
-    text-align: right;
+    text-align: right; 
     display: inline-block;
-    margin: 25px 0px 10px 20px;
     justify-content: space-evenly;
 
 }
 
 .logo {
-
-    text-align: left;
-    margin: 12px 20px 10px 0px;
+    text-align: left; 
     display: inline-block;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
-
-
+.navbar-toggler {
+    margin-left: 1rem;
+}
 .primero {
     text-align: center;
 }
@@ -1436,6 +1440,23 @@ header {
 
 
 }
+.izq1 {
+    width: 700px;
+    height: 500px;
+}
+.tituloo {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.titulooo {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.nav__color {
+    background-color: #C9EAFF;
+   
+}
+
 
 
 footer {
@@ -1532,13 +1553,40 @@ width: 1000px;
     justify-content: center;
 
 }
-
-.tittleregis {
+.color_form {
     background-color: #fbe3e3;
     text-align: center;
-
+}
+.espacio {
+    text-align: center;
+    margin-left: 250px;
+}
+.espacio1 {
+    margin-left: 400px;
 
 }
+.tittleregis {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.tittleing {
+    margin-top: 20px;
+    text-align: center;
+}
+.fondoregis {
+    background-color: #fbe3e3;
+}
+.fondoing {
+    background-color: #E1EFFF;
+    text-align: center;
+}
+.btn {
+    margin-bottom: 20px ;
+    width: 6rem;
+    height: 3rem;
+}
+
 
 
 .fondo5 {
@@ -1558,6 +1606,10 @@ width: 1000px;
     text-align: center;
     padding: 30px;
     background-color: #e1efff;
+    margin-bottom: 20px;
+}
+footer {
+    height: 12rem;
 }
 
 
