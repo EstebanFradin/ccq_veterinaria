@@ -17,6 +17,7 @@
             "footer footer footer";
     }
 
+
     header {
         background-color: #C9EAFF;
         margin: 0%;
@@ -36,7 +37,7 @@
         display: inline-block;
         margin-right: 2rem;
     }
-    
+
 
     .menusuperior a {
         text-decoration: none;
@@ -45,6 +46,7 @@
         font-size: 1.4rem;
         font-weight: 600;
     }
+
     .menusuperior a:hover {
         text-decoration: none;
         color: black;
@@ -53,8 +55,8 @@
         font-weight: 700;
         color: whitesmoke;
     }
-    
-        
+
+
 
     .iconheader {
         text-align: right;
@@ -71,7 +73,7 @@
         display: inline-block;
         justify-content: space-evenly;
     }
-    
+
     body {
 
         background-color: white;
@@ -88,19 +90,28 @@
         height: 900px;
         text-align: center;
     }
+
     .informacion {
         text-align: center;
         height: 900px;
     }
+
+    .carousel-item {
+        height: 800px;
+    }
+
     .informacion2 {
         text-align: center;
         height: 900px;
     }
+
     #segundo {
         background-color: #C9EAFF;
+        width: 100%;
         text-align: center;
         font-size: 40px;
         grid-area: sectionn;
+
     }
 
     .tituloservice {
@@ -108,24 +119,28 @@
         margin-top: 20px;
     }
 
+    .nofondo {
+        width: 100%;
+        background-color: #C9EAFF;
+
+
+    }
 
     .todoservicios {
-        overflow: hidden;
         background-color: #C9EAFF;
     }
 
     .servis img {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
         border-radius: 150px;
-        margin-left: 85px;
-        margin-right: 75px;
+
         justify-content: space-around;
     }
 
     .servis img:hover {
-        width: 230px;
-        height: 230px;
+        width: 200px;
+        height: 200px;
         border-radius: 150px;
     }
 
@@ -148,8 +163,9 @@
         box-shadow: 0px 4px 4px 0px;
         border: outset;
     }
+
     .contenedor:hover {
-        border-width: 2px ;
+        border-width: 2px;
         border-color: black;
     }
 
@@ -176,8 +192,7 @@
     footer {
 
         background-color: #a0c5f7;
-        background-image: url(./images/footerimg.jpg);
-        background-position: initial;
+        background-image:url(./images/footerimg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 10rem;
@@ -207,15 +222,18 @@
         color: white;
         text-align: center;
     }
+
     .ig:hover {
         width: 70px;
         height: 70px;
 
     }
+
     .fc:hover {
         width: 70px;
         height: 70px;
     }
+
     .tw:hover {
         width: 70px;
         height: 70px;
@@ -227,386 +245,386 @@
         text-align: center;
         font-family: sans-serif;
     }
+
+    @media (min-width: 577px) and (max-width: 991px) {
+        .grid {
+            display: grid;
+            width: 100%;
+            grid-template-areas:
+                "pin pin pin"
+                "div div div"
+                "sectionn sectionn sectionn"
+                "diiv diiv diiv "
+                "footer footer footer";
+        }
+
+        header {
+            background-color: #C9EAFF;
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+            justify-content: space-evenly;
+            grid-area: pin;
+
+        }
+
+        .menusuperior {
+            list-style-type: none;
+            text-align: center;
+            margin: 0%;
+        }
+
+        .menusuperior li {
+            display: inline-block;
+            margin-right: 0rem;
+        }
+
+
+        .menusuperior a {
+            text-decoration: none;
+            color: black;
+            padding: 0rem;
+            font-size: 1.4rem;
+            font-weight: 600;
+
+        }
+
+        .iconheader {
+            text-align: right;
+            display: inline-block;
+            margin: 25px 0px 10px 20px;
+            justify-content: space-evenly;
+
+        }
+
+        .logo {
+
+            text-align: left;
+            margin: 12px 0px 10px 0px;
+            display: inline-block;
+            justify-content: space-evenly;
+        }
+
+
+        body {
+
+            background-color: white;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+        }
+
+        #primero {
+            grid-area: div;
+        }
+
+        .fotobig {
+            width: 768px;
+            height: 900px;
+            text-align: center;
+        }
+
+        #segundo {
+            background-color: #C9EAFF;
+            text-align: center;
+            font-size: 40px;
+            grid-area: sectionn;
+        }
+
+        .tituloservice {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .todoservicios {
+            overflow: hidden;
+            background-color: #C9EAFF;
+        }
+
+        .servis img {
+            width: 200px;
+            height: 200px;
+            border-radius: 150px;
+            margin-left: 85px;
+            margin-right: 75px;
+            justify-content: space-around;
+        }
+
+        #tercero {
+            background-color: white;
+            overflow: hidden;
+            grid-area: diiv;
+        }
+
+        .tituloproducto {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 40px;
+
+        }
+
+        .contenedor {
+            margin: 10px 5px;
+            float: left;
+            box-shadow: 0px 4px 8px 0px;
+            border: outset;
+
+
+        }
+
+        .productodestacado {
+            float: left;
+            margin: 14px 56px 5px 53px;
+            width: 350px;
+        }
+
+        .productodestacado img {
+            width: 350px;
+            height: 400px;
+        }
+
+        .descripcion {
+            text-align: center;
+        }
+
+        .negrita {
+            font-weight: 800;
+        }
+
+
+        footer {
+
+            background-color: #a0c5f7;
+            background-image: url(./images/footerimg.jpg);
+            background-position: initial;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 10rem;
+            display: flex;
+            justify-content: space-around;
+            grid-area: footer;
+        }
+
+        .menuinferior li {
+            list-style-type: square;
+
+        }
+
+        .menuinferior a {
+            font-weight: 800;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .spam {
+            font-size: 40px;
+        }
+
+        .redes {
+            color: white;
+            text-align: center;
+        }
+
+        .contacto {
+            margin-top: 5px;
+            font-weight: 800;
+            text-align: center;
+            font-family: sans-serif;
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 576px) {
+        .grid {
+            display: grid;
+            width: 100%;
+            grid-template-areas:
+                "pin pin pin"
+                "div div div"
+                "sectionn sectionn sectionn"
+                "diiv diiv diiv "
+                "footer footer footer";
+        }
+
+        header {
+            background-color: #C9EAFF;
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+            justify-content: space-evenly;
+            grid-area: pin;
+            align-items: center;
+
+        }
+
+        .menusuperior {
+            list-style-type: none;
+            text-align: center;
+            margin: 0%;
+        }
+
+        .menusuperior li {
+            display: inline-block;
+            margin-right: 0rem;
+        }
+
+
+        .menusuperior a {
+            text-decoration: none;
+            color: black;
+            padding: 0rem;
+            font-size: 1rem;
+            font-weight: 600;
+
+        }
+
+        .iconheader {
+            text-align: right;
+            display: inline-block;
+            margin: 25px 0px 10px 20px;
+            justify-content: space-evenly;
+
+        }
+
+        .logo {
+
+            text-align: left;
+            margin: 12px 0px 10px 0px;
+            display: inline-block;
+            justify-content: space-evenly;
+        }
+
+
+        body {
+
+            background-color: white;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+        }
+
+        #primero {
+            grid-area: div;
+        }
+
+        .fotobig {
+            width: 768px;
+            height: 900px;
+            text-align: center;
+        }
+
+        #segundo {
+            background-color: #C9EAFF;
+            text-align: center;
+            font-size: 40px;
+            grid-area: sectionn;
+        }
+
+        .tituloservice {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .todoservicios {
+            overflow: hidden;
+            background-color: #C9EAFF;
+        }
+
+        .servis img {
+            width: 200px;
+            height: 200px;
+            border-radius: 150px;
+            margin-left: 85px;
+            margin-right: 75px;
+            justify-content: space-around;
+        }
+
+        #tercero {
+            background-color: white;
+            overflow: hidden;
+            grid-area: diiv;
+            margin-left: 160px;
+        }
+
+        .tituloproducto {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 40px;
+
+
+        }
+
+        .contenedor {
+            margin: 10px 5px;
+            float: left;
+            box-shadow: 0px 4px 8px 0px;
+            border: outset;
+
+
+        }
+
+        .productodestacado {
+            float: left;
+            margin: 14px 56px 5px 53px;
+            width: 350px;
+        }
+
+        .productodestacado img {
+            width: 350px;
+            height: 400px;
+        }
+
+        .descripcion {
+            text-align: center;
+        }
+
+        .negrita {
+            font-weight: 800;
+        }
+
+
+        footer {
+
+            background-color: #a0c5f7;
+            background-image: url(./images/footerimg.jpg);
+            background-position: initial;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 16rem;
+            display: flex;
+            justify-content: space-around;
+            grid-area: footer;
+        }
+
+        .menuinferior li {
+            list-style-type: square;
+
+        }
+
+        .menuinferior a {
+            font-weight: 800;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .spam {
+            font-size: 40px;
+        }
+
+        .redes {
+            color: white;
+            text-align: center;
+        }
+
+        .contacto {
+            margin-top: 5px;
+            font-weight: 800;
+            text-align: center;
+            font-family: sans-serif;
+        }
+    }
 }
- @media (max-width:768px) {
-    .grid {
-        display: grid;
-        width: 100%;
-        grid-template-areas:
-            "pin pin pin"
-            "div div div"
-            "sectionn sectionn sectionn"
-            "diiv diiv diiv "
-            "footer footer footer";
-    }
-
-    header {
-        background-color: #C9EAFF;
-        margin: 0%;
-        padding: 0%;
-        display: flex;
-        justify-content: space-evenly;
-        grid-area: pin;
-        
-    }
-
-    .menusuperior {
-        list-style-type: none;
-        text-align: center;
-        margin: 0%;
-    }
-
-    .menusuperior li {
-        display: inline-block;
-        margin-right: 0rem;
-    }
-
-
-    .menusuperior a {
-        text-decoration: none;
-        color: black;
-        padding: 0rem;
-        font-size: 1.4rem;
-        font-weight: 600;
-
-    }
-
-    .iconheader {
-        text-align: right;
-        display: inline-block;
-        margin: 25px 0px 10px 20px;
-        justify-content: space-evenly;
-
-    }
-
-    .logo {
-
-        text-align: left;
-        margin: 12px 0px 10px 0px;
-        display: inline-block;
-        justify-content: space-evenly;
-    }
-
-
-    body {
-
-        background-color: white;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-    }
-
-    #primero {
-        grid-area: div;
-    }
-
-    .fotobig {
-        width: 768px;
-        height: 900px;
-        text-align: center;
-    }
-
-    #segundo {
-        background-color: #C9EAFF;
-        text-align: center;
-        font-size: 40px;
-        grid-area: sectionn;
-    }
-
-    .tituloservice {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .todoservicios {
-        overflow: hidden;
-        background-color: #C9EAFF;
-    }
-
-    .servis img {
-        width: 200px;
-        height: 200px;
-        border-radius: 150px;
-        margin-left: 85px;
-        margin-right: 75px;
-        justify-content: space-around;
-    }
-
-    #tercero {
-        background-color: white;
-        overflow: hidden;
-        grid-area: diiv;
-    }
-
-    .tituloproducto {
-        text-align: center;
-        margin-top: 20px;
-        font-size: 40px;
-
-    }
-
-    .contenedor {
-        margin: 10px 5px;
-        float: left;
-        box-shadow: 0px 4px 8px 0px;
-        border: outset;
-
-
-    }
-
-    .productodestacado {
-        float: left;
-        margin: 14px 56px 5px 53px;
-        width: 350px;
-    }
-
-    .productodestacado img {
-        width: 350px;
-        height: 400px;
-    }
-
-    .descripcion {
-        text-align: center;
-    }
-
-    .negrita {
-        font-weight: 800;
-    }
-
-
-    footer {
-
-        background-color: #a0c5f7;
-        background-image: url(./images/footerimg.jpg);
-        background-position: initial;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 10rem;
-        display: flex;
-        justify-content: space-around;
-        grid-area: footer;
-    }
-
-    .menuinferior li {
-        list-style-type: square;
-
-    }
-
-    .menuinferior a {
-        font-weight: 800;
-        text-decoration: none;
-        color: black;
-        text-align: center;
-        font-family: sans-serif;
-    }
-
-    .spam {
-        font-size: 40px;
-    }
-
-    .redes {
-        color: white;
-        text-align: center;
-    }
-
-    .contacto {
-        margin-top: 5px;
-        font-weight: 800;
-        text-align: center;
-        font-family: sans-serif;
-    }
-}
-
-@media (max-width:320px) {
-    .grid {
-        display: grid;
-        width: 100%;
-        grid-template-areas:
-            "pin pin pin"
-            "div div div"
-            "sectionn sectionn sectionn"
-            "diiv diiv diiv "
-            "footer footer footer";
-    }
-
-    header {
-        background-color: #C9EAFF;
-        margin: 0%;
-        padding: 0%;
-        display: flex;
-        justify-content: space-evenly;
-        grid-area: pin;
-        align-items: center;
-        
-    }
-
-    .menusuperior {
-        list-style-type: none;
-        text-align: center;
-        margin: 0%;
-    }
-
-    .menusuperior li {
-        display: inline-block;
-        margin-right: 0rem;
-    }
-
-
-    .menusuperior a {
-        text-decoration: none;
-        color: black;
-        padding: 0rem;
-        font-size: 1rem;
-        font-weight: 600;
-
-    }
-
-    .iconheader {
-        text-align: right;
-        display: inline-block;
-        margin: 25px 0px 10px 20px;
-        justify-content: space-evenly;
-
-    }
-
-    .logo {
-
-        text-align: left;
-        margin: 12px 0px 10px 0px;
-        display: inline-block;
-        justify-content: space-evenly;
-    }
-
-
-    body {
-
-        background-color: white;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-    }
-
-    #primero {
-        grid-area: div;
-    }
-
-    .fotobig {
-        width: 768px;
-        height: 900px;
-        text-align: center;
-    }
-
-    #segundo {
-        background-color: #C9EAFF;
-        text-align: center;
-        font-size: 40px;
-        grid-area: sectionn;
-    }
-
-    .tituloservice {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .todoservicios {
-        overflow: hidden;
-        background-color: #C9EAFF;
-    }
-
-    .servis img {
-        width: 200px;
-        height: 200px;
-        border-radius: 150px;
-        margin-left: 85px;
-        margin-right: 75px;
-        justify-content: space-around;
-    }
-
-    #tercero {
-        background-color: white;
-        overflow: hidden;
-        grid-area: diiv;
-        margin-left: 160px;
-    }
-
-    .tituloproducto {
-        text-align: center;
-        margin-top: 20px;
-        font-size: 40px;
-        
-
-    }
-
-    .contenedor {
-        margin: 10px 5px;
-        float: left;
-        box-shadow: 0px 4px 8px 0px;
-        border: outset;
-
-
-    }
-
-    .productodestacado {
-        float: left;
-        margin: 14px 56px 5px 53px;
-        width: 350px;
-    }
-
-    .productodestacado img {
-        width: 350px;
-        height: 400px;
-    }
-
-    .descripcion {
-        text-align: center;
-    }
-
-    .negrita {
-        font-weight: 800;
-    }
-
-
-    footer {
-
-        background-color: #a0c5f7;
-        background-image: url(./images/footerimg.jpg);
-        background-position: initial;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 16rem;
-        display: flex;
-        justify-content: space-around;
-        grid-area: footer;
-    }
-
-    .menuinferior li {
-        list-style-type: square;
-
-    }
-
-    .menuinferior a {
-        font-weight: 800;
-        text-decoration: none;
-        color: black;
-        text-align: center;
-        font-family: sans-serif;
-    }
-
-    .spam {
-        font-size: 40px;
-    }
-
-    .redes {
-        color: white;
-        text-align: center;
-    }
-
-    .contacto {
-        margin-top: 5px;
-        font-weight: 800;
-        text-align: center;
-        font-family: sans-serif;
-    }
-}
-
 
 
 /*--------------------------------------------------ESTILO PRODUCTOS--------------------------------------------------------*/
@@ -672,6 +690,7 @@
         display: flex;
         text-align: center;
     }
+
     .cuadradito:hover {
         width: 15px;
         height: 15px;
@@ -704,18 +723,23 @@
         background-color: #dcdcdc;
         flex-wrap: wrap;
     }
+
     .articulo1:hover {
         height: 420px;
     }
+
     .articulo2:hover {
         height: 420px;
     }
+
     .articulo3:hover {
         height: 420px;
     }
+
     .articulo4:hover {
         height: 420px;
     }
+
     .imgespecial1 {
         width: 200px;
         height: 300px;
@@ -847,15 +871,18 @@
         color: white;
         text-align: center;
     }
+
     .ig:hover {
         width: 70px;
         height: 70px;
 
     }
+
     .fc:hover {
         width: 70px;
         height: 70px;
     }
+
     .tw:hover {
         width: 70px;
         height: 70px;
@@ -1319,7 +1346,7 @@ footer {
 .examen {
     background-image: url(./images/clinica.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: initial;
     background-size: cover;
     height: 40rem;
     width: 100%;
@@ -1348,11 +1375,12 @@ footer {
 .shop {
     background-image: url(./images/petshop.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: initial;
     background-size: cover;
     height: 40rem;
     width: 100%;
 }
+
 
 .medio {
     text-align: center;
@@ -1370,17 +1398,22 @@ header {
     padding: 0%;
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .menusuperior {
     list-style-type: none;
+    width: 100%;
+    margin: 0%;
+
 }
 
 .menusuperior li {
     display: inline-block;
     margin-right: 3rem;
-    margin-left: 6rem; 
+    margin-left: 6rem;
     margin-top: 0%;
+
 }
 
 
@@ -1388,41 +1421,66 @@ header {
     text-decoration: none;
     color: black;
     padding: 0rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
 
+
 }
-.nav 
+
 .iconheader {
-    text-align: right; 
+    text-align: right;
     display: inline-block;
     justify-content: space-evenly;
+
 
 }
 
 .logo {
-    text-align: left; 
+    text-align: left;
     display: inline-block;
     justify-content: space-evenly;
+    margin-left: 20px;
 }
 
-.navbar-toggler {
-    margin-left: 1rem;
+.col-lg-8 {
+    margin: 0%;
 }
+
+.navbar {
+    width: 100%;
+    margin: 0%;
+}
+
+.navbar-nav {
+    margin: 0%;
+
+}
+
+.junto {
+    flex-direction: row;
+}
+
 .primero {
     text-align: center;
+    margin: 0%;
+    padding: 0%;
 }
 
 .segundo {
     text-align: center;
+    margin: 0%;
+    padding: 0%;
 }
 
 .tercero {
     text-align: center;
+    margin: 0%;
+    padding: 0%;
 }
 
 #papa {
     background-color: #fbe3e3;
+    padding: 0%;
 
 }
 
@@ -1437,26 +1495,47 @@ header {
 
 #papa3 {
     background-color: #fbe3e3;
+    width: 100%;
 
 
 }
+
 .izq1 {
-    width: 700px;
-    height: 500px;
+    width: 100%;
 }
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-nav li {
+    margin-right: 12px;
+    margin-left: 24px;
+}
+
 .tituloo {
     margin-top: 40px;
     margin-bottom: 30px;
 }
+
 .titulooo {
     margin-top: 40px;
     margin-bottom: 30px;
 }
+
 .nav__color {
     background-color: #C9EAFF;
-   
 }
 
+.localcito {
+    height: 90%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
 
 
 footer {
@@ -1469,6 +1548,8 @@ footer {
     height: 10rem;
     display: flex;
     justify-content: space-around;
+    margin: 0%;
+    padding: 0%;
 }
 
 .menuinferior li {
@@ -1508,9 +1589,11 @@ footer {
     background-color: #e1efff;
     text-align: center;
 }
+
 .mapa:hover {
-width: 1000px;
+    width: 65%;
 }
+
 .ubicationtitulo {
     font-size: 30px;
     font-weight: 900;
@@ -1522,9 +1605,36 @@ width: 1000px;
     text-align: center;
 }
 
+.form-floating {
+    width: 50%;
+}
+
 .tittlecontacto2 {
+    font-weight: 700;
     background-color: #fbe3e3;
     text-align: center;
+    margin: 0%;
+    padding-bottom: 15px;
+}
+
+.mb-3 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.fondorosa {
+    background-color: #fbe3e3;
+    text-align: center;
+    margin: 0%;
+}
+
+.acercar {
+    margin: 0%;
+}
+
+.infor {
+    text-align: center;
+    align-items: baseline;
 }
 
 .botonesform {
@@ -1545,6 +1655,22 @@ width: 1000px;
     font-weight: 700;
 }
 
+.tw {
+    width: 50px;
+    height: 30%;
+}
+
+.ig {
+    width: 50px;
+    height: 30%;
+}
+
+.fc {
+    width: 50px;
+    height: 30%;
+}
+
+
 
 /*--------------------------------------------------ESTILO USUARIO--------------------------------------------------------*/
 .ordentotal {
@@ -1553,36 +1679,44 @@ width: 1000px;
     justify-content: center;
 
 }
+
 .color_form {
     background-color: #fbe3e3;
     text-align: center;
 }
+
 .espacio {
     text-align: center;
     margin-left: 250px;
 }
+
 .espacio1 {
     margin-left: 400px;
 
 }
+
 .tittleregis {
     margin-top: 20px;
     margin-bottom: 40px;
     text-align: center;
 }
+
 .tittleing {
     margin-top: 20px;
     text-align: center;
 }
+
 .fondoregis {
     background-color: #fbe3e3;
 }
+
 .fondoing {
     background-color: #E1EFFF;
     text-align: center;
 }
+
 .btn {
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
     width: 6rem;
     height: 3rem;
 }
@@ -1597,6 +1731,7 @@ width: 1000px;
     line-height: 50px;
 
 }
+
 .separar {
     margin-bottom: 10px;
     margin-top: 5px;
@@ -1608,10 +1743,10 @@ width: 1000px;
     background-color: #e1efff;
     margin-bottom: 20px;
 }
+
 footer {
     height: 12rem;
 }
-
 
 
 
