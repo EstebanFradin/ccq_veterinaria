@@ -1,0 +1,70 @@
+#papa {
+    background-color: $color-fondo2;
+    padding: 0%;
+
+    .primero {
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+    
+     .tituloo {
+     font-size: $font-size-tittle;
+     margin-top: 40px;
+     margin-bottom: 30px;
+     } 
+
+     .edit_texto {
+        font-size: $font-size-body;
+    }
+    }
+}
+
+#papa2 {
+    background-color: $color-fondo1;
+
+    .segundo {
+     text-align: center;
+     margin: 0%;
+     padding: 0%;
+
+     .titulooo {
+     font-size: $font-size-tittle;
+     margin-top: 40px;
+     margin-bottom: 30px;
+     }
+     .localcito {
+     height: 90%;
+     width: auto;
+     margin-top: 10px;
+     margin-left: 10px;
+     }
+     .edit_texto {
+        font-size: $font-size-body;
+    }
+    }
+    
+}
+
+#papa3 {
+    background-color: $color-fondo2;
+    width: 100%;
+
+  .tercero {
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+
+  .tituloo {
+    font-size: $font-size-tittle;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    } 
+
+  .izq1 {
+   width: 100%;
+  }
+  .edit_texto {
+    font-size: $font-size-body;
+ }
+ }
+}

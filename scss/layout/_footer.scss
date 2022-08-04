@@ -1,0 +1,55 @@
+footer {
+    background-color: #a0c5f7;
+    background-image: url(../images/footerimg.jpg);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+    padding: 0%;
+    grid-area: footer;
+
+    .menuinferior {
+    & li {
+        list-style-type: square;
+    }
+    & a {
+     font-weight: 800;
+     text-decoration: none;
+     color: black;
+     text-align: center;
+     font-family: sans-serif;
+    }
+   }
+    .redes {
+     color: white;
+     text-align: center;
+     .spam {
+     font-size: 40px;
+     }
+    }
+    .ig:hover {
+        width: 70px;
+        height: 70px;
+
+    }
+
+    .fc:hover {
+        width: 70px;
+        height: 70px;
+    }
+
+    .tw:hover {
+        width: 70px;
+        height: 70px;
+    }
+    .contacto {
+     margin-top: 5px;
+     font-weight: 800;
+     text-align: center;
+     font-family: sans-serif;
+    }
+  
+}

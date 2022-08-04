@@ -1,0 +1,33 @@
+
+.tittlecontacto2 {
+    font-weight: 700;
+    background-color: $color-fondo2;
+    text-align: center;
+    margin: 0%;
+    padding-bottom: 15px;
+}
+.fondorosa {
+    background-color: $color-fondo2;
+    text-align: center;
+    margin: 0%;
+
+    .mb-3 {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+.ubication {
+    background-color: $color-fondo1;
+    text-align: center;
+
+    .ubicationtitulo {
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .mapa {
+        width: 45%;
+        &:hover {
+         width: 65%;
+        }
+    }
+}

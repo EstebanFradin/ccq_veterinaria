@@ -1,0 +1,56 @@
+
+.examen {
+    background-image: url(../images/clinica.jpg);
+    @include img-servicios (800px,100%,no-repeat,initial,cover);
+}
+.vacuna {
+    background-image: url(../images/vacunacion.jpg);
+    @include img-servicios (800px,100%,no-repeat,initial,cover);
+}
+.pelu {
+    background-image: url(../images/peluqueria.jpg);
+    @include img-servicios (800px,100%,no-repeat,initial,cover);
+   
+}
+.shop {
+    background-image: url(../images/petshop.jpg);
+    @include img-servicios (800px,100%,no-repeat,initial,cover);
+
+}
+
+.row {
+    margin-right: 0%;
+
+    .arreglo {
+ text-align: center; 
+ margin: 0%;
+ padding: 0%;
+ 
+ .medio {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 5rem;
+
+ }
+ .btn-arreglo {
+ position: absolute; top: 75%;
+ background-color: $color-botones;
+ color: white; 
+
+ }
+ .gris {
+    background-color: $color-fondo1;
+ }
+ .celeste {
+    background-color: $color-fondo2;
+ }
+ }
+}
+
+
+
+
+
+
+
