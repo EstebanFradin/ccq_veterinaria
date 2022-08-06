@@ -20,17 +20,17 @@ header {
       margin-top: 0%; }
     header .menusuperior a {
       text-decoration: none;
-      color: black;
+      color: #ECE0ED;
       padding: 0rem;
       font-size: 1.2rem;
       font-weight: 600; }
       header .menusuperior a:hover {
         text-decoration: none;
-        color: black;
+        color: #ECE0ED;
         padding: 0rem;
         font-size: 24px;
         font-weight: 700;
-        color: whitesmoke; }
+        color: white; }
   header .nav__color {
     background-color: #0E1742; }
     header .nav__color .navbar-toggler {
@@ -139,12 +139,13 @@ footer {
     padding: 0%; }
     .row .arreglo .medio {
       text-align: center;
-      color: white;
+      color: #0E1742;
       font-weight: 700;
       font-size: 5rem; }
     .row .arreglo .btn-arreglo {
       position: absolute;
       top: 75%;
+      right: 47%;
       background-color: #0E1742;
       color: white; }
     .row .arreglo .gris {
@@ -165,6 +166,10 @@ footer {
       margin-bottom: 30px; }
     #papa .primero .edit_texto {
       font-size: 18px; }
+    #papa .primero .izq {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px; }
 
 #papa2 {
   background-color: #ECE0ED; }
@@ -179,8 +184,10 @@ footer {
     #papa2 .segundo .localcito {
       height: 90%;
       width: auto;
-      margin-top: 10px;
-      margin-left: 10px; }
+      margin-top: 20px;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      border-radius: 10px; }
     #papa2 .segundo .edit_texto {
       font-size: 18px; }
 
@@ -196,9 +203,40 @@ footer {
       margin-top: 40px;
       margin-bottom: 30px; }
     #papa3 .tercero .izq1 {
-      width: 100%; }
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px; }
     #papa3 .tercero .edit_texto {
       font-size: 18px; }
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .vuelta {
+    flex-direction: column-reverse; }
+  .tw {
+    height: 30px;
+    width: 30px; }
+  .ig {
+    height: 30px;
+    width: 30px; }
+  .fc {
+    height: 30px;
+    width: 30px; }
+  .spam {
+    font-size: 10px; } }
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .vuelta {
+    flex-direction: column-reverse; }
+  .tw {
+    height: 50px;
+    width: 50px; }
+  .ig {
+    height: 50px;
+    width: 50px; }
+  .fc {
+    height: 50px;
+    width: 50px; } }
 
 .tittlecontacto2 {
   font-weight: 700;
@@ -225,66 +263,6 @@ footer {
     width: 45%; }
     .ubication .mapa:hover {
       width: 65%; }
-
-.fondoregis {
-  background-color: #fbe3e3; }
-  .fondoregis .tittleregis {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    text-align: center; }
-  .fondoregis .color_form {
-    background-color: #fbe3e3;
-    text-align: center; }
-  .fondoregis .espacio {
-    text-align: center;
-    margin-left: 250px; }
-  .fondoregis .espacio1 {
-    margin-left: 400px; }
-  .fondoregis .btn {
-    margin-bottom: 20px;
-    width: 6rem;
-    height: 3rem; }
-
-.fondoing {
-  background-color: #E1EFFF;
-  text-align: center; }
-  .fondoing .tittleing {
-    margin-top: 20px;
-    text-align: center; }
-  .fondoing .fondo5 {
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 50px;
-    padding: 30px;
-    background-color: #e1efff;
-    margin-bottom: 20px; }
-
-body .titulocarro {
-  text-align: center;
-  background-color: #fbe3e3;
-  margin-bottom: 1rem; }
-
-body .tabla {
-  background-color: #fbe3e3;
-  width: 100%;
-  height: 50px; }
-  body .tabla th {
-    height: 40px; }
-  body .tabla td {
-    text-align: center;
-    height: 60px; }
-
-body .titulopago {
-  background-color: #C9EAFF;
-  text-align: center; }
-
-body .formpago {
-  width: 100%;
-  background-color: #C9EAFF;
-  line-height: 1.6cm;
-  text-align: center;
-  padding: 1rem; }
 
 @media (max-width: 1920px) {
   .productosflex {

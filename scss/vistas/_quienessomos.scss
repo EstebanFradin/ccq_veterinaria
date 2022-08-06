@@ -16,6 +16,11 @@
      .edit_texto {
         font-size: $font-size-body;
     }
+    .izq {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
     }
 }
 
@@ -35,8 +40,10 @@
      .localcito {
      height: 90%;
      width: auto;
-     margin-top: 10px;
+     margin-top: 20px;
      margin-left: 10px;
+     margin-bottom: 20px;
+     border-radius: 10px;
      }
      .edit_texto {
         font-size: $font-size-body;
@@ -62,9 +69,50 @@
 
   .izq1 {
    width: 100%;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border-radius: 10px;
   }
   .edit_texto {
     font-size: $font-size-body;
  }
  }
+}
+@media (min-width:320px) and (max-width:576px) {
+  .vuelta {
+    flex-direction: column-reverse;
+  }
+  .tw {
+    height: 30px;
+    width: 30px;
+  }
+  .ig {
+    height: 30px;
+    width: 30px;
+  }
+  .fc {
+    height: 30px;
+    width: 30px;
+  }
+  .spam {
+    font-size: 10px;
+  }
+ 
+}
+@media (min-width:577px) and (max-width:991px) {
+.vuelta {
+  flex-direction: column-reverse;
+}
+.tw {
+  height: 50px;
+  width: 50px;
+}
+.ig {
+  height: 50px;
+  width: 50px;
+}
+.fc {
+  height: 50px;
+  width: 50px;
+}
 }
