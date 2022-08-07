@@ -17,6 +17,10 @@
     @include img-servicios (800px,100%,no-repeat,initial,cover);
 
 }
+.inter {
+    background-image: url(../images/internacion.jpg);
+    @include img-servicios (800px,100%,no-repeat,initial,cover)
+}
 
 .row {
     margin-right: 0%;

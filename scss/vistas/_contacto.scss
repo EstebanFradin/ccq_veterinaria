@@ -1,33 +1,54 @@
 
 .tittlecontacto2 {
     font-weight: 700;
-    background-color: $color-fondo2;
     text-align: center;
     margin: 0%;
     padding-bottom: 15px;
 }
+.fondo_contacto {
+    background-image: url(../images/fondo-contacto.jpg);
+    height: 50rem;
+}
+.square {
+    background-color: #E3E8FF;
+    text-align: center;
+    margin-top: 10rem;
+    margin-right: 2rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px;
+}
 .fondorosa {
-    background-color: $color-fondo2;
     text-align: center;
     margin: 0%;
-
+    .btn-arreglo3 {
+        color: white;
+        margin-bottom: 10px;
+        width: 8rem;
+        background-color: #0E1742;
+    }
+    .btn-arreglo3:hover {
+        background-color: #182774ef;
+    }
     .mb-3 {
         margin-right: 10px;
         margin-left: 10px;
+        
     }
 }
+.sombra {
+    box-shadow: 2px 2px 2px 2px;
+}
 .ubication {
-    background-color: $color-fondo1;
     text-align: center;
-
     .ubicationtitulo {
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 900;
     }
     .mapa {
-        width: 45%;
+        width: 80%;
         &:hover {
-         width: 65%;
+         width: 85%;
+         border-radius:20px;
         }
     }
 }

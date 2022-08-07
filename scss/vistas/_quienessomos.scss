@@ -19,7 +19,8 @@
     .izq {
       margin-top: 20px;
       margin-bottom: 20px;
-      border-radius: 10px;
+      border-radius: 15px;
+      box-shadow: 0px 2px 2px 0px gray;
     }
     }
 }
@@ -43,7 +44,8 @@
      margin-top: 20px;
      margin-left: 10px;
      margin-bottom: 20px;
-     border-radius: 10px;
+     border-radius: 15px;
+     box-shadow: 0px 2px 2px 0px gray;
      }
      .edit_texto {
         font-size: $font-size-body;
@@ -71,7 +73,8 @@
    width: 100%;
    margin-top: 20px;
    margin-bottom: 20px;
-   border-radius: 10px;
+   border-radius: 15px;
+   box-shadow: 0px 2px 2px 0px gray;
   }
   .edit_texto {
     font-size: $font-size-body;

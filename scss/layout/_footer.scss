@@ -1,33 +1,31 @@
 footer {
-    background-color: #a0c5f7;
-    background-image: url(../images/footerimg.jpg);
-    background-position: initial;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: $color-footer;
     height: 10rem;
     display: flex;
     justify-content: space-around;
     margin: 0%;
     padding: 0%;
-    grid-area: footer;
 
     .menuinferior {
+        margin-top: 10px;
+      
     & li {
-        list-style-type: square;
+        list-style-image: url(../images/huella.png); 
     }
     & a {
      font-weight: 800;
      text-decoration: none;
-     color: black;
+     color: #E3E8FF;
      text-align: center;
      font-family: sans-serif;
     }
    }
     .redes {
-     color: white;
+     color: #E3E8FF;
      text-align: center;
      .spam {
      font-size: 40px;
+     margin-top: 10px;
      }
     }
     .ig:hover {
@@ -46,10 +44,11 @@ footer {
         height: 70px;
     }
     .contacto {
-     margin-top: 5px;
+     margin-top: 10px;
      font-weight: 800;
      text-align: center;
      font-family: sans-serif;
+     color: #E3E8FF;
     }
   
 }
