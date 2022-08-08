@@ -25,7 +25,7 @@
 .row {
     margin-right: 0%;
 
-    .arreglo {
+ .arreglo {
  text-align: center; 
  margin: 0%;
  padding: 0%;
@@ -38,7 +38,7 @@
 
  }
  .btn-arreglo {
- position: absolute; top: 75%; right: 47%;
+ position: absolute; top: 75%; right: 45%;
  background-color: $color-botones;
  color: white; 
 
@@ -52,6 +52,37 @@
  }
 }
 
+/*--------------------RESPONSIVE TABLET---------------------*/
+
+@media (min-width:577px) and (max-width:991px) {
+    .row{
+        .arreglo {
+            .medio {
+                font-weight: 600;
+                font-size: 4rem;
+          }
+          .btn-arreglo {
+            position: absolute; top: 75%; right: 35%;
+        }
+        }
+        }
+}
+  
+/*-----------------------RESPONSIVE MOVIL----------------------*/
+      
+  @media (min-width:320px) and (max-width:576px) {
+    .row{
+.arreglo {
+    .medio {
+        font-weight: 600;
+        font-size: 3rem;
+  }
+  .btn-arreglo {
+    position: absolute; top: 75%; right: 30%;
+}
+}
+}
+}
 
 
 

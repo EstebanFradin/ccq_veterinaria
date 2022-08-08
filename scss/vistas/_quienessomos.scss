@@ -1,3 +1,5 @@
+
+
 #papa {
     background-color: $color-fondo2;
     padding: 0%;
@@ -32,7 +34,9 @@
      text-align: center;
      margin: 0%;
      padding: 0%;
-
+     .vuelta {
+      display: flex;
+     }
      .titulooo {
      font-size: $font-size-tittle;
      margin-top: 40px;
@@ -51,8 +55,7 @@
         font-size: $font-size-body;
     }
     }
-    
-}
+  }
 
 #papa3 {
     background-color: $color-fondo2;
@@ -81,41 +84,31 @@
  }
  }
 }
-@media (min-width:320px) and (max-width:576px) {
-  .vuelta {
-    flex-direction: column-reverse;
-  }
-  .tw {
-    height: 30px;
-    width: 30px;
-  }
-  .ig {
-    height: 30px;
-    width: 30px;
-  }
-  .fc {
-    height: 30px;
-    width: 30px;
-  }
-  .spam {
-    font-size: 10px;
-  }
- 
-}
+
+/*--------------------RESPONSIVE TABLET---------------------*/
+
 @media (min-width:577px) and (max-width:991px) {
-.vuelta {
-  flex-direction: column-reverse;
-}
-.tw {
-  height: 50px;
-  width: 50px;
-}
-.ig {
-  height: 50px;
-  width: 50px;
-}
-.fc {
-  height: 50px;
-  width: 50px;
+  #papa2 {
+  .segundo {
+  .vuelta {
+    display: flex;
+    flex-direction:column-reverse;
+  }
 }
 }
+}
+
+/*-----------------------RESPONSIVE MOVIL----------------------*/
+    
+@media (min-width:320px) and (max-width:576px) {
+  #papa2 {
+    .segundo {
+      .vuelta {
+    display: flex;
+    flex-direction:column-reverse;
+  }
+    }
+  }
+  
+}
+

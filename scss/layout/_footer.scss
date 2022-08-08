@@ -23,10 +23,11 @@ footer {
     .redes {
      color: #E3E8FF;
      text-align: center;
-     .spam {
+     
+    }
+    .spam {
      font-size: 40px;
      margin-top: 10px;
-     }
     }
     .ig:hover {
         width: 70px;
@@ -52,3 +53,79 @@ footer {
     }
   
 }
+
+/*--------------------RESPONSIVE TABLET---------------------*/
+
+@media (min-width:577px) and (max-width:991px) {
+    
+    footer {
+        height: 12rem;
+    }
+    .tw {
+      height: 50px;
+      width: 50px;
+    }
+    .ig {
+      height: 50px;
+      width: 50px;
+    }
+    .fc {
+      height: 50px;
+      width: 50px;
+    }
+    
+    }
+    /*-----------------------RESPONSIVE MOVIL----------------------*/
+    
+    @media (min-width:320px) and (max-width:576px) {
+      footer {
+        display: grid;
+        grid-template-areas: 
+        "menuinferior  contacto"
+        "redes  redes "
+        ;
+        height: 17rem;
+      }
+      
+      .menuinferior {
+        grid-area: menuinferior;
+        margin-bottom: 0px ;
+      }
+      .contacto {
+        grid-area: contacto;
+      }
+      .contacto h3 {
+        font-size: 18px;
+      }
+      .vuelta {
+        flex-direction: column-reverse;
+      }
+      .tw {
+        height: 60px;
+        width: 60px;
+      }
+      .ig {
+        height: 60px;
+        width: 60px;
+      }
+      .fc {
+        height: 60px;
+        width: 60px;
+      }
+      .redes {
+        display: flex;
+        margin-top: 0px;
+        grid-area: redes;
+        justify-content: space-evenly;
+      }
+      .spam {
+        display: none;
+      }
+      .dato a{
+        font-size: 10px;
+      }
+      .dato {
+        font-size:14px;
+      }
+     
+    }

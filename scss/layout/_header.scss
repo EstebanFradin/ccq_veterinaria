@@ -5,8 +5,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 100px;
-    grid-area: pin;
+    height: auto;
 
     .menusuperior {
         list-style-type: none;
@@ -38,7 +37,9 @@ header {
         }
         
     }
-
+.btn-menu {
+    background-color: #ECE0ED;
+}
     .nav__color {
         background-color: $color-header;
 
@@ -63,14 +64,6 @@ header {
         }
         
     }
-    .iconheader {
-        text-align: right;
-        display: inline-block;
-        margin: 25px 0px 10px 20px;
-        justify-content: space-evenly;
-    
-    }
-    
     .logo {
     
         text-align: left;

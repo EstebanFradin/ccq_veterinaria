@@ -5,18 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-    .grid {
-        display: grid;
-        width: 100%;
-        grid-template-areas:
-            "pin pin pin"
-            "div div div"
-            "sectionn sectionn sectionn"
-            "diiv diiv diiv "
-            "footer footer footer";
-    }
-
     body {
 
         background-color: white;
@@ -24,29 +12,18 @@
         font-weight: 300;
     }
 
-   
-    #primero {
-        grid-area: div;
-    }
-
-    .fotobig {
-        width: 1920px;
-        height: 900px;
-        text-align: center;
-    }
-
     .informacion {
         text-align: center;
-        height: 900px;
+        height: auto;
     }
 
     .carousel-item {
-        height: 800px;
+        height: auto;
     }
 
     .informacion2 {
         text-align: center;
-        height: 900px;
+        height:auto;
     }
 
     #segundo {
@@ -54,25 +31,24 @@
         width: 100%;
         text-align: center;
         font-size: 40px;
-        grid-area: sectionn;
-
     }
 
-    .tituloservice {
+    .tittleservice {
         text-align: center;
         margin-top: 20px;
+        
     }
 
     .nofondo {
         width: 100%;
         background-color: $color-fondo2;
 
-
     }
 
     .todoservicios {
         background-color: $color-fondo2;
     }
+    
     .centro {
     position: absolute; top:10px; left: 10px;
     }
@@ -81,15 +57,13 @@
         font-size: 25px;
     }
 
- 
     .servis img {
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
         border-radius: 150px;
         justify-content: space-between;
         opacity: 1;
-        margin-bottom: 10px ;
-        
+        margin-bottom: 10px ; 
     }
    
     .servis img:hover {
@@ -97,13 +71,11 @@
         height: 200px;
         border-radius: 150px;
         opacity: 0.7;
-
     }
 
     #tercero {
         background-color: white;
         overflow: hidden;
-        grid-area: diiv;
     }
 
     .tituloproducto {
@@ -112,8 +84,9 @@
         font-size: 40px;
 
     }
+
 .tarjeta {
-    margin-right: 35px;
+    margin-right: 20px;
     margin-bottom: 10px;
     width: 18rem;
     height: 35rem;
@@ -159,3 +132,14 @@
     .negrita {
         font-weight: 800;
     }
+   
+
+ /*    @media (min-width:577px) and (max-width:991px) {
+      
+}
+
+
+
+    @media (min-width:320px) and (max-width:576px) {
+
+    } */
