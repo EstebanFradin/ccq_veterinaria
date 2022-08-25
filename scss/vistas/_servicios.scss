@@ -1,91 +1,194 @@
-
+/*--------------------------------------------------DISEÑO DESKTOP--------------------------------------------------*/
 .examen {
     background-image: url(../images/clinica.jpg);
-    @include img-servicios (800px,100%,no-repeat,initial,cover);
+    @include img-servicios (800px, 100%, no-repeat, initial, cover);
 }
+
 .vacuna {
     background-image: url(../images/vacunacion.jpg);
-    @include img-servicios (800px,100%,no-repeat,initial,cover);
+    @include img-servicios (800px, 100%, no-repeat, initial, cover);
 }
+
 .pelu {
     background-image: url(../images/peluqueria.jpg);
-    @include img-servicios (800px,100%,no-repeat,initial,cover);
-   
-}
-.shop {
-    background-image: url(../images/petshop.jpg);
-    @include img-servicios (800px,100%,no-repeat,initial,cover);
+    @include img-servicios (800px, 100%, no-repeat, initial, 100% 100%);
+    
 
 }
+
+.shop {
+    background-image: url(../images/petshop.jpg);
+    @include img-servicios (800px, 100%, no-repeat, initial, 100% 100%);
+
+}
+
 .inter {
     background-image: url(../images/internacion.jpg);
-    @include img-servicios (800px,100%,no-repeat,initial,cover)
+    @include img-servicios (800px, 100%, no-repeat, initial, cover)
 }
 
 .row {
     margin-right: 0%;
 
- .arreglo {
- text-align: center; 
- margin: 0%;
- padding: 0%;
- 
- .medio {
-    text-align: center;
-    color: #0E1742;
-    font-weight: 700;
-    font-size: 5rem;
+    .orden-caja {
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
 
- }
- .btn-arreglo {
- position: absolute; top: 75%; right: 45%;
- background-color: $color-botones;
- color: white; 
+        .centrar-titulo {
+            text-align: center;
+            color: #0E1742;
+            font-weight: 700;
+            font-size: 5rem;
 
- }
- .gris {
-    background-color: $color-fondo1;
- }
- .celeste {
-    background-color: $color-fondo2;
- }
- }
+        }
+
+        .btn-arreglo {
+            position: absolute;
+            top: 75%;
+            right: 45%;
+            background-color: $color-botones;
+            color: white;
+
+        }
+
+        .color-fondo1 {
+            background-color: $color-fondo1;
+        }
+
+        .color-fondo2 {
+            background-color: $color-fondo2;
+        }
+    }
 }
 
-/*--------------------RESPONSIVE TABLET---------------------*/
+/*--------------------------------------------------RESPONSIVE TABLET--------------------------------------------------*/
 
 @media (min-width:577px) and (max-width:991px) {
-    .row{
-        .arreglo {
-            .medio {
+    
+    .examen {
+        background-image: url(../images/clinica.jpg);
+        @include img-servicios (650px, 100%, no-repeat, initial, 100% 100%);
+    }
+    .vacuna {
+        background-image: url(../images/vacunacion.jpg);
+        @include img-servicios (650px, 100%, no-repeat, initial, 100% 100%);
+    }
+    .pelu {
+        background-image: url(../images/peluqueria.jpg);
+        @include img-servicios (650px, 100%, no-repeat, initial, 100% 100%);
+    
+    }
+    .shop {
+        background-image: url(../images/petshop.jpg);
+        @include img-servicios (650px, 100%, no-repeat, initial, 100% 100%);
+    
+    }
+    
+    .inter {
+        background-image: url(../images/internacion.jpg);
+        @include img-servicios (650px, 100%, no-repeat, initial, cover)
+    }
+
+    .row {
+        .orden-caja {
+            text-align: center;
+            .centrar-titulo {
                 font-weight: 600;
                 font-size: 4rem;
-          }
-          .btn-arreglo {
-            position: absolute; top: 75%; right: 35%;
+            }
+
+            .btn-arreglo {
+                position: absolute;
+                top: 75%;
+                right: 35%;
+            }
         }
+    }
+}
+
+/*--------------------------------------------------RESPONSIVE MOVIL--------------------------------------------------*/
+
+@media (min-width:430px) and (max-width:576px) {
+   
+    .examen {
+        background-image: url(../images/clinica.jpg);
+        @include img-servicios (550px, 100%, no-repeat, initial, 100% 100%);
+    }
+    .vacuna {
+        background-image: url(../images/vacunacion.jpg);
+        @include img-servicios (550px, 100%, no-repeat, initial, 100% 100%);
+    }
+    .pelu {
+        background-image: url(../images/peluqueria.jpg);
+        @include img-servicios (550px, 100%, no-repeat, initial, 100% 100%);
+    
+    }
+    .shop {
+        background-image: url(../images/petshop.jpg);
+        @include img-servicios (550px, 100%, no-repeat, initial, 100% 100%);
+    
+    }
+    
+    .inter {
+        background-image: url(../images/internacion.jpg);
+        @include img-servicios (550px, 100%, no-repeat, initial, cover)
+    }
+
+    .row {
+        .orden-caja {
+            text-align: center;
+            .centrar-titulo {
+                font-weight: 600;
+                font-size: 3rem;
+            }
+
+            .btn-arreglo {
+                position: absolute;
+                top: 75%;
+                right: 33%;
+            }
         }
+    }
+}
+@media (min-width:320px) and (max-width:430px) {
+   
+    .examen {
+        background-image: url(../images/clinica.jpg);
+        @include img-servicios (500px, 100%, no-repeat, initial, 100% 100%);
+    }
+    .vacuna {
+        background-image: url(../images/vacunacion.jpg);
+        @include img-servicios (500px, 100%, no-repeat, initial, 100% 100%);
+    }
+    .pelu {
+        background-image: url(../images/peluqueria.jpg);
+        @include img-servicios (500px, 100%, no-repeat, initial, 100% 100%);
+    
+    }
+    .shop {
+        background-image: url(../images/petshop.jpg);
+        @include img-servicios (500px, 100%, no-repeat, initial, 100% 100%);
+    
+    }
+    
+    .inter {
+        background-image: url(../images/internacion.jpg);
+        @include img-servicios (500px, 100%, no-repeat, initial, cover)
+    }
+    .row {
+        .orden-caja {
+            text-align: center;
+            .centrar-titulo {
+                font-weight: 600;
+                font-size: 3rem;
+            }
+
+            .btn-arreglo {
+                position: absolute;
+                top: 75%;
+                right: 25%;
+            }
         }
+    }
 }
-  
-/*-----------------------RESPONSIVE MOVIL----------------------*/
-      
-  @media (min-width:320px) and (max-width:576px) {
-    .row{
-.arreglo {
-    .medio {
-        font-weight: 600;
-        font-size: 3rem;
-  }
-  .btn-arreglo {
-    position: absolute; top: 75%; right: 30%;
-}
-}
-}
-}
-
-
-
-
-
-

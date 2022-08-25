@@ -1,114 +1,151 @@
+/*--------------------------------------------------DISEÑO DESKTOP--------------------------------------------------*/
 
-
-#papa {
+main {
+  #quienes-somos {
     background-color: $color-fondo2;
     padding: 0%;
 
-    .primero {
-        text-align: center;
-        margin: 0%;
-        padding: 0%;
-    
-     .tituloo {
-     font-size: $font-size-tittle;
-     margin-top: 40px;
-     margin-bottom: 30px;
-     } 
+    .primer-bloque {
+      text-align: center;
+      margin: 0%;
+      padding: 0%;
 
-     .edit_texto {
+      .titulo-quienes-somos {
+        font-size: $font-size-tittle;
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
+
+      .edit_texto {
         font-size: $font-size-body;
-    }
-    .izq {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      border-radius: 15px;
-      box-shadow: 0px 2px 2px 0px gray;
-    }
-    }
-}
+      }
 
-#papa2 {
-    background-color: $color-fondo1;
-
-    .segundo {
-     text-align: center;
-     margin: 0%;
-     padding: 0%;
-     .vuelta {
-      display: flex;
-     }
-     .titulooo {
-     font-size: $font-size-tittle;
-     margin-top: 40px;
-     margin-bottom: 30px;
-     }
-     .localcito {
-     height: 90%;
-     width: auto;
-     margin-top: 20px;
-     margin-left: 10px;
-     margin-bottom: 20px;
-     border-radius: 15px;
-     box-shadow: 0px 2px 2px 0px gray;
-     }
-     .edit_texto {
-        font-size: $font-size-body;
-    }
+      .img-equipo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 2px 2px 0px gray;
+      }
     }
   }
 
-#papa3 {
+  #nuestra-historia {
+    background-color: $color-fondo1;
+
+    .segundo-bloque {
+      text-align: center;
+      margin: 0%;
+      padding: 0%;
+
+      .vuelta {
+        display: flex;
+      }
+
+      .titulo-historia {
+        font-size: $font-size-tittle;
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
+
+      .edit_texto {
+        font-size: $font-size-body;
+      }
+
+      .img-vista-local {
+        height: 90%;
+        width: auto;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 2px 2px 0px gray;
+      }
+    }
+  }
+
+  #nuestro-equipo {
     background-color: $color-fondo2;
     width: 100%;
 
-  .tercero {
-  text-align: center;
-  margin: 0%;
-  padding: 0%;
+    .tercer-bloque {
+      text-align: center;
+      margin: 0%;
+      padding: 0%;
 
-  .tituloo {
-    font-size: $font-size-tittle;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    } 
+      .titulo-equipo {
+        font-size: $font-size-tittle;
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
 
-  .izq1 {
-   width: 100%;
-   margin-top: 20px;
-   margin-bottom: 20px;
-   border-radius: 15px;
-   box-shadow: 0px 2px 2px 0px gray;
-  }
-  .edit_texto {
-    font-size: $font-size-body;
- }
- }
-}
+      .edit_texto {
+        font-size: $font-size-body;
+      }
 
-/*--------------------RESPONSIVE TABLET---------------------*/
-
-@media (min-width:577px) and (max-width:991px) {
-  #papa2 {
-  .segundo {
-  .vuelta {
-    display: flex;
-    flex-direction:column-reverse;
-  }
-}
-}
-}
-
-/*-----------------------RESPONSIVE MOVIL----------------------*/
-    
-@media (min-width:320px) and (max-width:576px) {
-  #papa2 {
-    .segundo {
-      .vuelta {
-    display: flex;
-    flex-direction:column-reverse;
-  }
+      .img-profesionales {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 2px 2px 0px gray;
+      }
     }
   }
-  
 }
 
+/*--------------------------------------------------RESPONSIVE TABLET--------------------------------------------------*/
+
+@media (min-width:577px) and (max-width:991px) {
+  main {
+    #nuestra-historia {
+      .segundo-bloque {
+        .vuelta {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+      }
+    }
+  }
+
+}
+
+/*--------------------------------------------------RESPONSIVE MOVIL--------------------------------------------------*/
+
+@media (min-width:320px) and (max-width:576px) {
+  main {
+    #quienes-somos {
+
+      .primer-bloque {
+
+        .img-equipo {
+          height: 250px;
+        }
+      }
+    }
+
+    #nuestra-historia {
+
+      .segundo-bloque {
+
+        .vuelta {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+
+        .img-vista-local {
+          height: 250px;
+        }
+      }
+    }
+
+    #nuestro-equipo {
+
+      .tercer-bloque {
+
+        .img-profesionales {
+          height: 250px;
+        }
+      }
+    }
+  }
+}

@@ -1,100 +1,120 @@
-
-.tittlecontacto2 {
-    font-weight: 700;
-    text-align: center;
-    margin: 0%;
-    padding-bottom: 15px;
-}
+/*--------------------------------------------------DISEÑO DESKTOP--------------------------------------------------*/
 .fondo_contacto {
     background-image: url(../images/fondo-contacto.jpg);
     height: auto;
-}
-.bloque1 {
-    margin-left: 2rem;
-}
-.square {
-    background-color: #E3E8FF;
-    text-align: center;
-    margin-top: 8rem;
-    margin-bottom: 8rem;
-    margin-right: 4rem;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px 5px;
-}
-.fondorosa {
-    text-align: center;
-    margin: 0%;
-    .btn-arreglo3 {
-        color: white;
-        margin-bottom: 10px;
-        width: 8rem;
-        background-color: #0E1742;
+
+    .bloque1 {
+        margin-left: 2rem;
     }
-    .btn-arreglo3:hover {
-        background-color: #182774ef;
-    }
-    .mb-3 {
-        margin-right: 10px;
-        margin-left: 10px;
-        
-    }
-}
-.sombra {
-    box-shadow: 2px 2px 2px 2px;
-}
-.ubication {
-    text-align: center;
-    .ubicationtitulo {
-        font-size: 35px;
-        font-weight: 900;
-    }
-    .mapa {
-        width: 80%;
-        &:hover {
-         width: 85%;
-         border-radius:20px;
+
+    .square {
+        background-color: #E3E8FF;
+        text-align: center;
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+        margin-right: 4rem;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 5px;
+
+        .tittlecontacto2 {
+            font-weight: 700;
+            text-align: center;
+            margin: 0%;
+            padding-bottom: 15px;
+        }
+
+        .fondorosa {
+            text-align: center;
+            margin: 0%;
+
+            .btn-arreglo3 {
+                color: white;
+                margin-bottom: 10px;
+                width: 8rem;
+                background-color: #0E1742;
+            }
+
+            .btn-arreglo3:hover {
+                background-color: #182774ef;
+            }
+
+            .mb-3 {
+                margin-right: 10px;
+                margin-left: 10px;
+
+                .sombra {
+                    box-shadow: 2px 2px 2px 2px;
+                }
+
+            }
+        }
+
+        .ubication {
+            text-align: center;
+
+            .ubicationtitulo {
+                font-size: 35px;
+                font-weight: 900;
+            }
+
+            .mapa {
+                width: 80%;
+
+                &:hover {
+                    width: 85%;
+                    border-radius: 20px;
+                }
+            }
         }
     }
+
+
 }
 
-/*-------------------RESPONSIVE TABLET-----------------------*/
+/*--------------------------------------------------RESPONSIVE TABLET--------------------------------------------------*/
 
 @media (min-width:577px) and (max-width:991px) {
     .row {
         display: flex;
         flex-direction: column;
-    }
-    .col {
-        margin-left: 0rem;
-    }
-    .bloque1 {
-        margin-top:5rem;
-        margin-bottom: 5rem;
-    }
-    .bloque2 {
-        margin-top: 0rem;
+
+        .col {
+            margin-left: 0rem;
+        }
+
+        .bloque1 {
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+        }
+
+        .bloque2 {
+            margin-top: 0rem;
+        }
     }
 }
 
-/*-------------------RESPONSIVE MOVIL-------------------*/
+/*--------------------------------------------------RESPONSIVE MOVIL--------------------------------------------------*/
 @media (min-width:320px) and (max-width:576px) {
     .row {
         display: flex;
         flex-direction: column;
+
+        .col {
+            width: 98%;
+        }
+
+        .bloque1 {
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+
+        .bloque2 {
+            margin-top: 0rem;
+            margin-bottom: 3rem;
+            margin-left: 8px;
+            margin-right: 8px;
+        }
     }
-    .col {
-        width: 98%;
-    }
-    .bloque1 {
-        margin-top:2rem;
-        margin-bottom: 3rem;
-        margin-left: 8px;
-        margin-right: 8px;
-    }
-    .bloque2 {
-        margin-top: 0rem;
-        margin-bottom: 3rem;
-        margin-left: 8px;
-        margin-right: 8px;
-    }
-  }
+}
